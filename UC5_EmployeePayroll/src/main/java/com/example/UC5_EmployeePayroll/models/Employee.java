@@ -1,4 +1,4 @@
-package com.example.UC4_EmployeePayroll.Models;
+package com.example.UC5_EmployeePayroll.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -13,10 +13,10 @@ import lombok.NoArgsConstructor;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    private Long id;
 
     private String name;
     private String email;
-    private Long salary;
+    private String salary;
 
 }

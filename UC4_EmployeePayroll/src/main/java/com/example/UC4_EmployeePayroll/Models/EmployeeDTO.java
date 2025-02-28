@@ -1,4 +1,4 @@
-package com.example.UC3_EmployeePayroll.Model;
+package com.example.UC4_EmployeePayroll.Models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.example.UC3_EmployeePayroll.Model;
+package com.example.UC4_EmployeePayroll.Models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,8 +1,8 @@
-package com.example.UC3_EmployeePayroll.Services;
+package com.example.UC4_EmployeePayroll.Services;
 
-import com.example.UC3_EmployeePayroll.Model.Employee;
-import com.example.UC3_EmployeePayroll.Model.EmployeeDTO;
-import com.example.UC3_EmployeePayroll.Repository.EmployeeRepository;
+import com.example.UC4_EmployeePayroll.Repository.EmployeeRepository;
+import com.example.UC4_EmployeePayroll.Models.Employee;
+import com.example.UC4_EmployeePayroll.Models.EmployeeDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

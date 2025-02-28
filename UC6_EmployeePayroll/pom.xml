@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bridzlabz</groupId>
-	<artifactId>UC5_EmployeePayroll</artifactId>
+	<artifactId>UC6_EmployeePayroll</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>UC5_EmployeePayroll</name>
+	<name>UC6_EmployeePayroll</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

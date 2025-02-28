@@ -1,4 +1,4 @@
-package com.example.UC5_EmployeePayroll.models;
+package com.example.UC6_EmployeePayroll.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,17 +6,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
+@Data  // Lombok - Generates Getters, Setters, toString, equals, hashCode
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "employee")
 public class Employee {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
 
     private String name;
     private String email;
-    private String salary;
-
+    private double salary;
 }

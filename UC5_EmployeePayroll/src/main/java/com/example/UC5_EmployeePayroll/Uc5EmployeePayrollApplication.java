@@ -1,13 +1,13 @@
-package com.example.UC4_EmployeePayroll;
+package com.example.UC5_EmployeePayroll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Uc4EmployeePayrollApplication {
+public class Uc5EmployeePayrollApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Uc4EmployeePayrollApplication.class, args);
+		SpringApplication.run(Uc5EmployeePayrollApplication.class, args);
 	}
 
 }

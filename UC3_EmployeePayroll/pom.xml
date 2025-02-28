@@ -8,10 +8,10 @@
         <version>3.4.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>UC1_EmployeePayroll</artifactId>
+    <groupId>com.bridglabz</groupId>
+    <artifactId>UC3_EmployeePayrollAppSetup</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>UC1_EmployeePayrollSetup</name>
+    <name>UC3_EmployeePayroll</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>
@@ -68,6 +68,8 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+
     </dependencies>
 
     <build>
@@ -101,6 +103,7 @@
                     </excludes>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
